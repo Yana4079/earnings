@@ -1,0 +1,33 @@
+.btn {
+  font-size: 14px;
+  &__red {
+    line-height: 21px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    background: #ff0000;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 14px;
+    width: 100%;
+  }
+  &__green {
+    line-height: 21px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    background: #068006;
+    text-align: center;
+    margin-top: 7px;
+  }
+  &__blue {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-image: linear-gradient(to right, #56ccf2 0%, #2f80ed 51%, #56ccf2 100%);
+    background-size: 200% auto;
+    box-shadow: inset 0px 0px 3px 1px rgba(255, 255, 255, 0.42), 0px 17px 21px 0px rgba(95, 162, 190, 0.27);
+    padding: 12px 37px;
+    border-radius: 7px;
+    transition: all 0.4s;
+  }
+}

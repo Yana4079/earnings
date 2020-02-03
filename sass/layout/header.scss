@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: 72px;
+  @include bp(767px) {
+    flex-direction: column;
+  }
+}
+.navigation__logo {
+  @include bp(767px) {
+    justify-content: center !important;
+  }
+}
+.navigation__application {
+  @include bp(767px) {
+    justify-content: center !important;
+  }
+}
+.navigation__application--summ {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #51b8f1;
+    letter-spacing: 0.18em;
+}
+
+

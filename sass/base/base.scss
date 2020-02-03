@@ -1,0 +1,61 @@
+html {
+  font-family: $ff;
+  color: $text;
+  font-size: $fz;
+  line-height: 1.15;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+
+.footer {
+  flex-grow: 0;
+}
+
+a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+picture {
+  display: inline-block;
+  max-width: 100%;
+}
+
+button {
+  span {
+    display: block;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.accent {
+  color: $accent;
+}
+
+.mob {
+  display: none;
+  @include bp(600px) {
+    display: block;
+  }
+}
+h1 {
+  @include fF(21px, 35px, 300px, 1920px, 35px);
+}
+h2 {
+  @include fF(13px, 15px, 300px, 1920px, 15px);
+}
